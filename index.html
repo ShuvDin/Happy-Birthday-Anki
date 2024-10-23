@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anki's Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/3762c279f8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/logo.png" class="logo" />
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-list" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Anki's Birth Daay Surprise ❣️  </p>
+        <h1>
+          <span>Happy Birthday to our</span><br />
+          Fav girl!!
+        </h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- -----------About section------------- -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/user1.jpg" alt="" />
+        </div>
+        <div class="about-col-2">
+          <h1 class="subtitle">About Anki😊</h1>
+          <p class="abt">
+            Ankitaa, anku, ankiiii,<br> is someone who will be very silent when you meet her, but wait till she becomes comfortable with you,The most caring, witty, & opinionated too. <br>She loves to gossip, is a bigbossiya😂, is the best singer and never thinks twice before doing anything for her friends. <br> She also doesn’t give up, is really intelligent, and managed cracking neet while also wasting time on trends🤭 & obviously we love her, so much and are so proud of her!!
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">
+              Skills Of Anki
+            </p>
+            <p class="tab-links" onclick="opentab('experience')">
+              Most loved for
+            </p>
+            <p class="tab-links" onclick="opentab('education')">Needs Improvement In</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Bajoing in Comments</span><br />Ex FD, and fighting for her friends</li>
+              <li><span>Roasting</span><br />Specifically cooking Ayan(Ayan roasts better any way😒)</li>
+              <li>
+                <span>Peacemaking</span><br />Helping Knight and Rea not to block each other
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>Being the best friendt</span><br />Always being there, being the most  understanding, & hating same people.</li>
+              <li>
+                <span>Entertaining</span><br />W lame sense of humor like us, & always ready to do dumb things.
+              </li>
+              <li>
+                <span>Advicing</span><br />Helping w everything from padhai to stopping fights on X.
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li>
+                <span>SLEEPING</span><br />Sooo le kutti teek se
+              </li>
+              <li>
+                <span>LOVE</span><br />Do khullam khulla piyaar, And give us a Jiju ASAP.
+              </li>
+              <li>
+                <span>SINGING</span><br />Sing more and more songs for us.
+              </li>
+              <li>
+                <span>TIME</span><br />Give us more time.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- --------------SERVIVES---------------- -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">Our Journey</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Started from Twitter</h2>
+          <p>
+            Spaces, Trends, Chatting in trends, GC’s ( smaller GC’s😂), RS spaces, fake ids for threads, coded tweets for knight, antakshris, “love” for some people, Shipping
+          </p>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop"></i>
+          <h2>To Calls</h2>
+          <p>
+            Endless gossiping, life & family talks, career discussions, advices, listening to drunk people, Plotting😂, movie nights, games
+          </p>
+          
+        </div>
+        <div>
+          <i class="fa-brands fa-google-play"></i>
+          <h2>To being Fam</h2>
+          <p>
+            Just us being us, defending, laughing, roasting, supporting, becoming each other’s strength.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ------------PortFolio------------- -->
+  <div id="portfolio">
+    <div class="container">
+      <div class="subtitle">Wishing You</div>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/work-1.png" alt="" />
+          <div class="layer">
+            <h3>Love</h3>
+            <p>
+              A year with all your closed ones around you, many new memories & meeting people as amazing you at college❤️
+            </p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-2.png" alt="" />
+          <div class="layer">
+            <h3>Success</h3>
+            <p>
+              Make us more more and more proud. Kill it in your college, jo specialisation chahiye, sab mile, top kare, jaldiii se doctor ban jaye🧿
+            </p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-3.png" alt="" />
+          <div class="layer">
+            <h3>Happiness</h3>
+            <p>
+              May you get everything you desire, aise hi haste hasate rehna, bhagwanji hamesha khush rakhe❤️
+            </p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="index2.html" class="btn">Surprise</a>
+    </div>
+  </div>
+    <div class="copyright">
+      <p>Copyright ©️ Ayan. Made with ❣️ by Ayan & Rea</p>
+    </div>
+  </div>
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu() {
+      sidemenu.style.right = "0";
+    }
+    function closemenu() {
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+ 
+</body>
+
+</html>
